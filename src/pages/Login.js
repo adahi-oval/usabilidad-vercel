@@ -7,7 +7,7 @@ export const Login = () => {
     <Row>
       <Col></Col>
       <Col>
-      <Card style={{ width: "600px", marginTop: "100px", marginBottom: "100px" }}>
+      <Card style={{ width: "600px", marginTop: "100px", marginBottom: "100px" }} aria-label='inicia sesión'>
         <Card.Body>
           <p> INICIA SESIÓN</p>
           <LoginForm />

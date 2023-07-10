@@ -9,7 +9,7 @@ export const Faqs = () => {
   return (
     <div id='itemsX'>
       <Card.Text>
-        <Breadcrumb>
+        <Breadcrumb aria-label='Breadcrumbs'>
           <Breadcrumb.Item href="#">Inicio</Breadcrumb.Item>
           <Breadcrumb.Item active>Preguntas frecuentes</Breadcrumb.Item>
         </Breadcrumb>

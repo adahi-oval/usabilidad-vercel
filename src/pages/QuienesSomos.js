@@ -20,7 +20,7 @@ export const QuienesSomos = () => {
       <Row>
         <Col></Col>
         <Col>
-        <Card style={{ width: "600px", marginTop: "100px", marginBottom: "100px" }}>
+        <Card style={{ width: "600px", marginTop: "100px", marginBottom: "100px" }} aria-label='formulario de contacto'>
           <Card.Body>
             <p> C O N T A C T A N O S</p>
             <Contacto/>

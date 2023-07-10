@@ -16,7 +16,7 @@ export const SubirApuntes = () => {
     <header style={{ width: "80%", marginLeft: "10%" }}>
         <Card border="light" className='shadow-none'>
           <Card.Body>
-            <Card.Title style={{ fontSize: "30px"}} className='border-bottom pb-4 mb-4'>Sube tus apuntes</Card.Title>
+            <Card.Title style={{ fontSize: "30px"}} className='border-bottom pb-4 mb-4' aria-label='Sube tus apuntes'>Sube tus apuntes</Card.Title>
             <Card.Text>Aquí puedes subir tus apuntes para poder compartirlos.</Card.Text>
           </Card.Body>
         </Card>

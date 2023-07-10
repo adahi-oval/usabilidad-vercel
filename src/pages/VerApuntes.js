@@ -12,7 +12,7 @@ export const VerApuntes = () => {
           <Breadcrumb.Item active>Ver Apuntes</Breadcrumb.Item>
         </Breadcrumb>
       </Card.Text>
-    <GridApuntes/>
+    <GridApuntes aria-label='Todos los apuntes' />
     </main>
   
   )
