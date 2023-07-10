@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col'
 import { Carta } from './Carta'
 import Container from 'react-bootstrap/esm/Container'
 import Card from 'react-bootstrap/Card'
+import { NavLink } from 'react-bootstrap'
 
 export const GridApuntes = () => {
   const data1 = [
@@ -72,17 +73,19 @@ export const GridApuntes = () => {
       </header>
       <Row className='mt-3'>
         {data1.map((apunte) => (
-          <Col><Carta data = {apunte}/></Col>
+          <Col>
+            <NavLink href='/ver_apuntes'><Carta data = {apunte}/></NavLink>
+          </Col>
         ))}
       </Row>
       <Row>
         {data2.map((apunte) => (
-          <Col><Carta data = {apunte}/></Col>
+          <Col><NavLink href='/ver_apuntes'><Carta data = {apunte}/></NavLink></Col>
         ))}
       </Row>
       <Row>
         {data3.map((apunte) => (
-          <Col><Carta data = {apunte}/></Col>
+          <Col><NavLink href='/ver_apuntes'><Carta data = {apunte}/></NavLink></Col>
         ))}
       </Row>
     </Container>

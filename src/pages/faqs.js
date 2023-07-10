@@ -1,9 +1,7 @@
 import React from 'react'
-import { Buscador } from '../components/buscador';
 import { GridFaqs } from '../components/GridFaqs';
 import { Card } from 'react-bootstrap';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import Container from 'react-bootstrap/esm/Container'
 
 export const Faqs = () => {
   return (
@@ -21,9 +19,6 @@ export const Faqs = () => {
           </Card.Body>
         </Card>
       </header>
-      <Container classname='d-flex justify-content-center'>
-        <Buscador/>
-      </Container>
       <GridFaqs/>
     </div>
 
