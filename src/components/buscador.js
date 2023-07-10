@@ -8,9 +8,9 @@ export const Buscador =() => {
       <Form.Control
           placeholder="Busca ayuda..."
           aria-label="Buscador"
-          aria-describedby="basic-addon2"
+          id="basic-addon2"
       />
-      <Button variant="outline-secondary" id="button-addon2">
+      <Button variant="outline-light" id="button-addon2">
         Buscar
       </Button>
     </InputGroup>
